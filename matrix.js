@@ -22,7 +22,7 @@ class MatrixAnimation {
 
     drawAnimation() {
         let code = 'アァカサタナハマヤャラワガザダバパイィキシチニヒミリヰギジヂビピウゥクスツヌフムユュルグズブヅプエェケセテネヘメレヱゲゼデベペオォコソトノホモヨョロヲゴゾドボポヴッン0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ'
-            + '♔♕♖♗♘♙CHESS♚♛♜♝♞♟☀☁❆WEATHER❅❄♪MUSIC♫'
+            
         if (this.status) {
             this.ctx.fillStyle = this.lettersColor;
             this.ctx.font = `${this.letterSize}pt ${this.font}`;
