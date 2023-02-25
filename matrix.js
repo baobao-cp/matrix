@@ -78,7 +78,7 @@ class MatrixAnimation {
 
 }
 
-const matrix = new MatrixAnimation(document.querySelector('#matrix'), '#1aaf2e', 10, 'Arial', 80);
+const matrix = new MatrixAnimation(document.querySelector('#matrix'), '#FFC0CB', 10, 'Arial', 80);
 
 matrix.init();
 
